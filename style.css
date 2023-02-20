@@ -218,8 +218,9 @@ header .navbar ul li a:hover {
   right: 0;
   margin-right: 100px;
   margin-top: 80px;
-  position: fixed;
-  display: block;
+  margin-left: 80%;
+  position: relative;
+  display: flex;
   width: 100px; /*320*/
   height: 50px; /*160*/
   border-radius: 50px; /*160*/
@@ -361,7 +362,7 @@ label svg.moon {
 .experience .box-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
   flex-wrap: wrap;
   padding: 1rem 0;
   padding-left: 3rem;
@@ -452,7 +453,7 @@ label svg.moon {
 .education .box-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
   flex-wrap: wrap;
   padding: 1rem 0;
   padding-left: 3rem;
@@ -607,14 +608,14 @@ label svg.moon {
 }
 
 .footer {
-  position: sticky;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: var(--weight1);
   color: var(--weight10);
   text-align: right;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 /* contact end */
