@@ -364,14 +364,14 @@ label svg.moon {
   align-items: center;
   justify-content: right;
   flex-wrap: wrap;
-  padding: 1rem 0;
-  padding-left: 3rem;
+  /* padding: 1rem 0; */
+  /* padding-left: 3rem; */
 }
 
 .experience .box-container .box {
-  width: 100rem;
-  margin: 10rem 15rem;
-  padding-left: 6rem;
+  /* width: 100rem; */
+  /* margin: 10rem 15rem; */
+  padding-left: 3rem;
   border-left: 0.2rem solid var(--weight10);
   position: relative;
 }
