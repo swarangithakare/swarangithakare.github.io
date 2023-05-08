@@ -12,15 +12,24 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- header section starts  -->
 
     <header>
       <div class="user">
-        <img src="images/pic.jpg" alt="" />
+        <!-- <img src="images/pic.jpg" alt="" /> -->
         <h3 class="name">Swarangi Thakare</h3>
         <p class="post">
           Interested to pursue my career in AI/ ML/ DL/ CV intersections
@@ -32,6 +41,7 @@
           <li><a href="#home">home</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#experience">experience</a></li>
+          <li><a href="#project">projects</a></li>
           <li><a href="#education">education</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
@@ -113,7 +123,7 @@
           <!-- <h3><span> post : </span> front end developer</h3> -->
           <!-- <h3><span> language : </span> hindi</h3> -->
           <a
-            href="https://drive.google.com/file/d/1oB2MmRIJGKgwnht6gmlpy9_tx-8SPrPl/view?usp=share_link"
+            href="https://drive.google.com/file/d/1nNu_wdKLRLF6NMB2PdlbmqsxeJuBTBN1/view?usp=share_link"
             target="_blank"
             ><button class="btn">
               Visit/ download Resume <i class="fas fa-download"></i></button
@@ -186,6 +196,137 @@
     </section>
 
     <!-- Experience section ends -->
+
+    <!-- Project section starts  -->
+
+    <section class="project" id="project">
+      <h1 class="heading">my <span>Projects</span></h1>
+
+      <div class="grid">
+        <!-- MODAL IMAGES -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" />
+          <div id="caption"></div>
+        </div>
+
+        <!-- -->
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__content">
+              <a target="_blank" href="#home">
+                <p class="card__header">Resume Website</p>
+              </a>
+              <!-- <button class="btn">Show Video <i class="fa fa-play"></i></button> -->
+            </div>
+
+            <img
+              class="myImages"
+              id="myImg"
+              src="images/website_snapshot.png"
+              alt="Website Snapshot"
+            />
+          </div>
+        </div>
+        <!--  -->
+
+        <div class="grid__item">
+          <div class="card">
+            <div class="card__content">
+              <a target="_blank" href="#">
+                <p class="card__header">Tri-wheel Omnidirectional Robot</p>
+              </a>
+            </div>
+            <img
+              class="myImages"
+              id="myImg"
+              src="images/TriWheel_Robot.jpeg"
+              alt="Tri-wheel Omnidirectional Robot"
+            />
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <a target="_blank" href="#">
+              <div class="card__content">
+                <p class="card__header">Four-wheel Mecanum Robot</p>
+              </div>
+              <img
+                class="myImages"
+                src="images/Mecanum_Robot.png"
+                alt="Mecanum Robot"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <a target="_blank" href="#">
+              <div class="card__content">
+                <p class="card__header">Packet Counting</p>
+              </div>
+              <img
+                class="myImages"
+                src="images/Packet_Counting.png"
+                alt="Packet Counting"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <a target="_blank" href="#">
+              <div class="card__content">
+                <p class="card__header">Smoke Emission</p>
+                <!-- 2 videos link here -->
+              </div>
+              <img
+                class="myImages"
+                src="images/Smoke_Emission.jpeg"
+                alt="Smoke Emission"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <a target="_blank" href="#">
+              <div class="card__content">
+                <p class="card__header">
+                  Productivity and Safety in Food Processing
+                </p>
+              </div>
+              <img
+                class="myImages"
+                src="images/Food_Processing.png"
+                alt="Food Processing"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid__item">
+          <div class="card">
+            <a target="_blank" href="#">
+              <div class="card__content">
+                <p class="card__header">Production Monitoring</p>
+              </div>
+              <img
+                class="myImages"
+                src="images/Production_Monitoring.png"
+                alt="Production Monitoring"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section ends -->
 
     <!-- education section starts  -->
 
