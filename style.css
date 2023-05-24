@@ -510,6 +510,11 @@ label svg.moon {
   color: #0d0d0d;
 }
 
+.card_footer{
+  font-size: 1.5rem;
+  color: #111;
+}
+
 /* .card__header:hover {
   color: #0077e7;
 } */
